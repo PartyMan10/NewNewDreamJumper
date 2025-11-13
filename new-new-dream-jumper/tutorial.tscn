@@ -1,8 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://c3a6f6j1lkb87"]
+[gd_scene load_steps=4 format=3 uid="uid://vs8drnesgmik"]
 
-[ext_resource type="Script" uid="uid://dqhryed6pxb24" path="res://tutorial.gd" id="1_ehuit"]
+[ext_resource type="Script" path="res://tutorial.gd" id="1_ehuit"]
 [ext_resource type="Texture2D" uid="uid://ds4khopxgi7ga" path="res://images/pixil-frame-with-bg (7).png" id="1_yb1ct"]
-[ext_resource type="Texture2D" uid="uid://dvgjjgmpakcpr" path="res://images/pixil-frame-0 (9).png" id="3_ehuit"]
+[ext_resource type="Texture2D" uid="uid://h5hgl7cque7j" path="res://images/quit-frame-1.png.png" id="3_ehuit"]
 
 [node name="Tutorial" type="Control"]
 layout_mode = 3
@@ -25,11 +25,11 @@ texture = ExtResource("1_yb1ct")
 [node name="next" type="TextureButton" parent="."]
 texture_filter = 1
 layout_mode = 0
-offset_left = 897.0
-offset_top = 405.0
-offset_right = 997.0
-offset_bottom = 505.0
-scale = Vector2(2.94115, 3.66253)
+offset_left = 797.00006
+offset_top = 430.00003
+offset_right = 905.8011
+offset_bottom = 530.0
+scale = Vector2(3.0249624, 3.0906074)
 texture_normal = ExtResource("3_ehuit")
 stretch_mode = 0
 
