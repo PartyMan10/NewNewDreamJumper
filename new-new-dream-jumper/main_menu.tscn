@@ -25,8 +25,8 @@ offset_bottom = 40.0
 
 [node name="Main-bg-frame" type="Sprite2D" parent="."]
 texture_filter = 1
-position = Vector2(172.7767, 130.82156)
-scale = Vector2(3.489, 2.86381)
+position = Vector2(176.959, 135.398)
+scale = Vector2(3.59698, 3.00307)
 texture = ExtResource("2_jix8l")
 
 [node name="Play" type="TextureButton" parent="."]
@@ -34,10 +34,10 @@ texture_filter = 1
 layout_mode = 1
 anchors_preset = 9
 anchor_bottom = 1.0
-offset_left = 7.9087925
-offset_top = 133.0771
-offset_right = 112.90879
-offset_bottom = 247.07709
+offset_left = 47.0
+offset_top = 144.0
+offset_right = 170.0
+offset_bottom = 281.0
 grow_vertical = 2
 scale = Vector2(1.00349, 1.31628)
 size_flags_horizontal = 0
@@ -50,10 +50,10 @@ texture_filter = 1
 layout_mode = 1
 anchors_preset = 9
 anchor_bottom = 1.0
-offset_left = 205.32443
-offset_top = 144.80594
-offset_right = 305.32443
-offset_bottom = 244.80594
+offset_left = 183.119
+offset_top = 144.355
+offset_right = 320.119
+offset_bottom = 276.355
 grow_vertical = 2
 scale = Vector2(0.961786, 1.40205)
 size_flags_horizontal = 0
