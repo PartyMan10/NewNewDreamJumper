@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://dydduoijl87lb"]
 
-[ext_resource type="Texture2D" uid="uid://b3ufh06avowu0" path="res://images/pixil-frame-0 (1).png" id="1_06t4h"]
-[ext_resource type="Script" uid="uid://boqdbi01eaam7" path="res://main_menu.gd" id="1_glbon"]
-[ext_resource type="Texture2D" uid="uid://cip6057d8bf4s" path="res://images/newmainmenu..png" id="2_jix8l"]
-[ext_resource type="Texture2D" uid="uid://fj7b8c6ic5ci" path="res://images/quit-frame.png" id="4_nlkkf"]
+[ext_resource type="Script" uid="uid://boqdbi01eaam7" path="res://Scripts/main_menu.gd" id="1_dt0ve"]
+[ext_resource type="Texture2D" uid="uid://cip6057d8bf4s" path="res://art/menus/newmainmenu..png" id="2_sblur"]
+[ext_resource type="Texture2D" uid="uid://b3ufh06avowu0" path="res://art/buttons/pixil-frame-0 (1).png" id="3_ac4ys"]
+[ext_resource type="Texture2D" uid="uid://fj7b8c6ic5ci" path="res://art/buttons/quit-frame.png" id="4_xx208"]
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3
@@ -16,7 +16,7 @@ offset_right = 7.0
 offset_bottom = -294.0
 grow_vertical = 2
 scale = Vector2(3.28748, 2.21676)
-script = ExtResource("1_glbon")
+script = ExtResource("1_dt0ve")
 
 [node name="Panel" type="Panel" parent="."]
 layout_mode = 0
@@ -25,9 +25,9 @@ offset_bottom = 40.0
 
 [node name="Main-bg-frame" type="Sprite2D" parent="."]
 texture_filter = 1
-position = Vector2(181.3698, 153.89365)
-scale = Vector2(3.6851962, 3.372983)
-texture = ExtResource("2_jix8l")
+position = Vector2(181.37, 153.894)
+scale = Vector2(3.6852, 3.37298)
+texture = ExtResource("2_sblur")
 
 [node name="Play" type="TextureButton" parent="."]
 texture_filter = 1
@@ -42,7 +42,7 @@ grow_vertical = 2
 scale = Vector2(1.00349, 1.31628)
 size_flags_horizontal = 0
 size_flags_vertical = 3
-texture_normal = ExtResource("1_06t4h")
+texture_normal = ExtResource("3_ac4ys")
 stretch_mode = 0
 
 [node name="Exit" type="TextureButton" parent="."]
@@ -58,7 +58,7 @@ grow_vertical = 2
 scale = Vector2(0.961786, 1.40205)
 size_flags_horizontal = 0
 size_flags_vertical = 3
-texture_normal = ExtResource("4_nlkkf")
+texture_normal = ExtResource("4_xx208")
 stretch_mode = 0
 
 [connection signal="pressed" from="Play" to="." method="_on_start_pressed"]
