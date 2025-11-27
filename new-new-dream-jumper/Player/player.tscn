@@ -72,6 +72,11 @@ animations = [{
 "loop": true,
 "name": &"idle",
 "speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4ntmi"]
@@ -87,7 +92,7 @@ metadata/_edit_group_ = true
 texture_filter = 1
 scale = Vector2(5.42952, 3.27216)
 sprite_frames = SubResource("SpriteFrames_urp6f")
-animation = &"idle"
+animation = &"walk"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-524.613, 6.83875)
